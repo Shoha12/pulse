@@ -1,0 +1,122 @@
+@media (max-width:1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 370px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .header {
+        &__official {
+            span {
+                font-size: 15px;
+            }
+            
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .button {
+        width: 138px;
+        height: 28px;
+        &_main {
+            width: 250px;
+            height: 40px;
+        }
+    }
+    .advantages {
+        &__item {
+            max-width: 200px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 520px;
+    }
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        min-height: 500px;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        &__header {
+            text-align: center;
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+    }
+
+    .advantages {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 280px;
+    }
+    .header {
+        &__contacts {
+            display: none;
+        }
+        &__logo {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 13px;
+        }
+        &__icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 200px;
+        }
+        &__icon {
+            min-height: 110px;
+            font-size: 11px;
+            img {
+                margin-bottom: 10px;
+            }
+        }
+
+    }
+}
