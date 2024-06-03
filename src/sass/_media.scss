@@ -48,6 +48,14 @@
             max-width: 200px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 600px;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -93,6 +101,14 @@
     .consultation {
         &__descr {
             font-size: 16px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 500px;
+            img {
+                width: 100%;
+            }
         }
     }
 }
@@ -153,6 +169,14 @@
         &_submit {
             width: 263px;
             height: 40px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 250px;
+            img {
+                width: 100%;
+            }
         }
     }
 }
